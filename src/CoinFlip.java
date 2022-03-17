@@ -12,7 +12,7 @@ public class CoinFlip {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Guess which will have more: heads or tails? ");
 		headsOrTailsGuess = in.nextLine();
-		if(!headsOrTailsGuess.equalsIgnoreCase("heads") && !headsOrTailsGuess.equalsIgnoreCase("tauls")) {
+		if(!headsOrTailsGuess.equalsIgnoreCase("heads") && !headsOrTailsGuess.equalsIgnoreCase("tails")) {
 			System.out.println("Error: invalid heads or tails guess entered!");
 			in.close();
 			return;
